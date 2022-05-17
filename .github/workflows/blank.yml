@@ -72,7 +72,7 @@ jobs:
         sed -i '/CONFIG_FIRMWARE_INCLUDE_SMARTDNS/d' .config
         sed -i '/CONFIG_FIRMWARE_INCLUDE_SRELAY/d' .config
         
-        sed -i '/CONFIG_FIRMWARE_INCLUDE_HTOP/d' .config
+        ###sed -i '/CONFIG_FIRMWARE_INCLUDE_HTOP/d' .config
         sed -i '/CONFIG_FIRMWARE_INCLUDE_NAPT66/d' .config  #napt66 
         
         sed -i '/CONFIG_FIRMWARE_INCLUDE_XUPNPD/d' .config  ### Include xUPNPd IPTV mediaserver. ~0.3MB
