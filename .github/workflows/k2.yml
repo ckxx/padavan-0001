@@ -1,4 +1,4 @@
-name: k2
+name: mewifi
 
 on: 
   release:
@@ -43,7 +43,7 @@ jobs:
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
-        TNAME: PSG1218
+        TNAME: 
         KERNEL: 3.4
       run: |
         cd /opt/rt-n56u/trunk
